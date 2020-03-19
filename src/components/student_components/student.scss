@@ -1,0 +1,129 @@
+.scrollable{
+    overflow-x: scroll; 
+    height: 110px;
+  
+  }
+  .subjectCard{
+    width: 500px;
+  }
+  .subjectCardHeader {
+    background-color: royalblue;
+    /* background-image: url(./Images/banner4.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100px;
+    color: white;
+    line-height: 100px;
+  }
+  
+  .GiBlackBook{
+    margin: 30px;
+  }
+  
+  .viewAll{
+    float: right;
+    margin: 10px 30px;
+  }
+  
+  .deadlineCard{
+    width: 500px;
+    height: 280px;
+  }
+  .deadlineCardHeader {
+    background-color: #d30c0c;
+    /* background-image: url(./Images/banner4.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100px;
+    color: white;
+    line-height: 100px;
+  }
+  
+  .testCard{
+    width: 500px;
+  }
+  
+  .testCardHeader {
+    background-color: purple;
+    /* background-image: url(./Images/banner4.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    width: 900px;
+    height: 100px;
+    color: white;
+    line-height: 100px;
+  }
+  .changecolor{
+    margin: 10px;
+    
+  }
+  .changecolor p{
+    text-align: left; 
+  }
+  .startExam{
+      width: 100px;
+      margin: 0 auto;
+  }
+  
+  .ExamQuestions{
+  
+    background-color: #eee;
+    margin-right: 15px;
+    height: auto;
+    float: left;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(100% - 30%);
+  }
+
+  .ExamQuestions h4,p{
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+ 
+  }
+  .ExamQuestions h4{
+    color:#007bff;
+  }
+
+  .ExamSummary{
+   
+    background-color: #eee;
+    margin-left: 15px;
+    height: auto;
+    float: right;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+  }
+
+  .ExamSummary h4{
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #007bff
+  }
+
+  .Esummary{
+    display: block;
+    width: 100%;
+    margin-top: 15px; 
+    
+  }
+  .QuestionSummary{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center; 
+    line-height: 50px;
+    background-color: gray;
+  }
+  
+  .ExamSummary p{
+    text-align: center;
+  }
+  
+  
+  /*# sourceMappingURL=faculty.css.map */

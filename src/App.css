@@ -1,3 +1,5 @@
+@import "components/student_components/student.scss";
+
 .App {
   text-align: center;
 }
